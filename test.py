@@ -38,7 +38,7 @@ model.fit(X_train, y_train.apply(str) )
 # Evaluate the model
 y_pred = model.predict(test_t)
 # accuracy = accuracy_score(y_test, y_pred)
-print(y_pred)
+print(y_pred[0])
 
 # # Optionally, you can print the classification report
 # from sklearn.metrics import classification_report
